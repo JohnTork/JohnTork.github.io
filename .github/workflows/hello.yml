@@ -16,7 +16,7 @@ jobs:
         run: echo "qual a resposta de 2 + 2"
       - name: Resposta do captcha
         run: echo "$((2 + 2))"
-adeus:
+  adeus:
     runs-on: ubuntu-latest
     steps:
      - name: "o fim"
