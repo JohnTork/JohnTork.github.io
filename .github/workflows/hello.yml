@@ -16,3 +16,10 @@ jobs:
         run: echo "qual a resposta de 2 + 2"
       - name: Resposta do captcha
         run: echo "$((2 + 2))"
+adeus:
+    runs-on: ubuntu-latest
+    steps:
+     - name: "o fim"
+       run: echo "Após um bomba dos estados unidos, o Brasil virou churrasquinho"
+     - name: "Nova era"
+       run: echo "Uma nova raça animal começa a dominar o planeta."
