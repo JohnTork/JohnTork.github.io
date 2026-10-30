@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - nme: Checkout
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: Comfigurar Node.js
+      - name: Configurar o Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 24
